@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="83d041a4-7c54-4427-a260-173012cf110b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/RecipeApi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/.adonisrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/ace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/app/Controllers/Http/AuthController.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/app/Controllers/Http/IngredientsController.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/app/Controllers/Http/RecipesController.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/app/Exceptions/Handler.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/app/Middleware/Auth.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/app/Middleware/SilentAuth.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/app/Models/Ingredient.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/app/Models/Recipe.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/app/Models/User.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/app/Utils/Time.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/app/Validators/IngredientValidator.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/app/Validators/RecipeValidator.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/commands/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/config/app.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/config/auth.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/config/bodyparser.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/config/cors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/config/database.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/config/hash.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/config/session.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/contracts/auth.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/contracts/events.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/contracts/hash.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/database/migrations/1587988332388_users.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/database/migrations/1591482101957_ingredients.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/database/migrations/1593165593067_shorts.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/providers/AppProvider.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/start/kernel.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/start/routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/tmp/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1mIuVcP5YGmpFjxJ8GExkFTU1C7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="83d041a4-7c54-4427-a260-173012cf110b" name="Default Changelist" comment="" />
+      <created>1609193450703</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609193450703</updated>
+      <workItem from="1609193451812" duration="2762000" />
+      <workItem from="1609263197739" duration="1315000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
