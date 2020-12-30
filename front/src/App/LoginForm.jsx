@@ -1,8 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import {useState} from "react"
+import {ApiErrors, apiFetch} from "../utils/api";
 
-export function LoginForm (){
+export function LoginForm ({onConnect}){
 
     const [error, setError] = useState(null)
     const [loading, setLoding] = useState(false)
@@ -13,22 +14,20 @@ export function LoginForm (){
         e.preventDefault()
 
         const data = new FormData(e.target)
-        const response = await fetch('http://localhost:3333/login', {
-            method: 'POST',
-            body: data,
-            credentials: 'include',
-            headers: {
-                Accept: 'application/json'
+        try{
+            const user = await apiFetch('/login', {
+                method: 'POST',
+                body: data,
+            })
+        } catch (e){
+            if (e instanceof ApiErrors){
+                setError(e.errors[0].message)
+
+            }else{
+                console.log(e)
             }
-
-        })
-        const responseData = await response.json()
-        if (response.ok){
-
-        }else{
-            setError(responseData.errors[0].message)
+            setLoding(false)
         }
-        setLoding(false)
     }
 
     return <form className="container mt-4" onSubmit={handleSubmit}>
