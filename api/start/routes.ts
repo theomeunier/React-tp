@@ -19,9 +19,9 @@ Route.group(() => {
   Route.delete('/recipes/:id', 'RecipesController.delete')
 
   // Ingrédients
-  Route.get('/ingredients', 'IngredientsController.index')
-  Route.post('/ingredients', 'IngredientsController.store')
-  Route.get('/ingredients/:id', 'IngredientsController.read')
-  Route.put('/ingredients/:id', 'IngredientsController.update')
-  Route.delete('/ingredients/:id', 'IngredientsController.delete')
+  Route.get('/ingredients.jsx', 'IngredientsController.index')
+  Route.post('/ingredients.jsx', 'IngredientsController.store')
+  Route.get('/ingredients.jsx/:id', 'IngredientsController.read')
+  Route.put('/ingredients.jsx/:id', 'IngredientsController.update')
+  Route.delete('/ingredients.jsx/:id', 'IngredientsController.delete')
 }).middleware('auth')

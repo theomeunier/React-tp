@@ -17,7 +17,7 @@ export default class Ingredients extends BaseSchema {
       table.integer('recipe_id').unsigned()
       table.foreign('recipe_id').references('recipes.id').onDelete('CASCADE')
       table.integer('ingredient_id').unsigned()
-      table.foreign('ingredient_id').references('ingredients.id').onDelete('CASCADE')
+      table.foreign('ingredient_id').references('ingredients.jsx.id').onDelete('CASCADE')
       table.float('quantity')
     })
   }
